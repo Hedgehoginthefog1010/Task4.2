@@ -1,0 +1,288 @@
+﻿<Page x:Class="Task4._1.View.Page.Menu.MenuList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Task4._1.View.Page.Menu"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MenuList"
+      Background="AliceBlue"
+       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+
+    <Grid>
+        <Image Source="/Image/111.jpeg"
+               Stretch="UniformToFill"/>
+
+        <Border Width="600"
+                Height="auto"
+                HorizontalAlignment="Right"
+                Background="Transparent">
+            
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition />
+
+                </Grid.ColumnDefinitions>
+                <ScrollViewer>
+                    <StackPanel Grid.Column="0"
+                            HorizontalAlignment="Center"
+                            Width="94"
+                            Background="Transparent">
+                        <Button x:Name="E1"
+                            Click="E1_Click"
+                            Width="50"
+                            Height="50"
+                            HorizontalAlignment="Right"
+                            Style="{StaticResource MaterialDesignPaperLightButton}"
+                            Background="AliceBlue">
+                            <StackPanel>
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+                        <TextBlock Text="Задание 1"
+                               Width="57" 
+                              HorizontalAlignment="Right"
+                               Background="Bisque"/>
+                        <Button x:Name="E2"
+                            Click="E2_Click"
+                            Width="50"
+                            Height="50"
+                            HorizontalAlignment="Right"
+                            Style="{StaticResource MaterialDesignPaperLightButton}"
+                            Background="LightGray">
+                            <StackPanel>
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+                        <TextBlock Text="Задание 2"
+                               Width="57" 
+                               HorizontalAlignment="Right"
+                               Background="Azure"/>
+                        <Button x:Name="E3"
+                            Click="E3_Click"
+                            Width="50"
+                            Height="50"
+                            HorizontalAlignment="Right"
+                            Style="{StaticResource MaterialDesignPaperLightButton}"
+                            Background="AliceBlue">
+                            <StackPanel>
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+                        <TextBlock Text="Задание 3"
+                               Width="57"
+                               Background="Lavender"
+                              
+                               HorizontalAlignment="Right"/>
+                        <Button x:Name="E4"
+                            Click="E4_Click"
+                            Width="50"
+                            Height="50"
+                            HorizontalAlignment="Right"
+                            Style="{StaticResource MaterialDesignPaperLightButton}"
+                            Background="AliceBlue">
+                            <StackPanel>
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+                        <TextBlock Text="Задание 4"
+                               Width="57" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+
+
+
+
+                        <Button x:Name="E5"
+                            Click="E5_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="AliceBlue">
+                            <StackPanel>
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+
+                        <TextBlock Text="Задание 5"
+                               Width="57" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                        <Button x:Name="E6"
+                            Click="E6_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="Aqua">
+                            <StackPanel>
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+
+                        <TextBlock Text="Задание 6"
+                               Width="57" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                        <Button x:Name="E7"
+                            Click="E7_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="Ivory">
+                            <StackPanel>
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+
+                        <TextBlock Text="Задание 7"
+                               Width="57" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                        <Button x:Name="E8"
+                            Click="E8_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="AliceBlue">
+                            <StackPanel>
+                                <materialDesign:PackIcon Kind="Check"/>
+                            </StackPanel>
+                        </Button>
+
+                        <TextBlock Text="Задание 8"
+                               Width="57" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+
+
+
+
+                    </StackPanel>
+                </ScrollViewer>
+
+
+
+
+                <StackPanel Grid.Column="1">
+                    <Button x:Name="E9"
+                            Click="E9_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="Turquoise">
+                        <StackPanel>
+                            <materialDesign:PackIcon Kind="Check"/>
+                        </StackPanel>
+                    </Button>
+
+                    <TextBlock Text="Задание 9"
+                               Width="57" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                    <Button x:Name="E10"
+                            Click="E10_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="CadetBlue">
+                        <StackPanel>
+                            <materialDesign:PackIcon Kind="Check"/>
+                        </StackPanel>
+                    </Button>
+
+                    <TextBlock Text="Задание 10"
+                               Width="62" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                    <Button x:Name="E11"
+                            Click="E11_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="LightBlue">
+                        <StackPanel>
+                            <materialDesign:PackIcon Kind="Check"/>
+                        </StackPanel>
+                    </Button>
+
+                    <TextBlock Text="Задание 11"
+                               Width="62" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                    <Button x:Name="E12"
+                            Click="E12_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="CadetBlue">
+                        <StackPanel>
+                            <materialDesign:PackIcon Kind="Check"/>
+                        </StackPanel>
+                    </Button>
+
+                    <TextBlock Text="Задание 12"
+                               Width="62" 
+                                Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                    <Button x:Name="E13"
+                            Click="E13_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="Honeydew">
+                        <StackPanel>
+                            <materialDesign:PackIcon Kind="Check"/>
+                        </StackPanel>
+                    </Button>
+
+                    <TextBlock Text="Задание 13"
+                               Width="62" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                    <Button x:Name="E14"
+                            Click="E14_Click" 
+                            Style="{StaticResource Menu}"
+                            Background="CadetBlue">
+                        <StackPanel>
+                            <materialDesign:PackIcon Kind="Check"/>
+                        </StackPanel>
+                    </Button>
+
+                    <TextBlock Text="Задание 14"
+                               Width="62" 
+                              
+                               Background="Bisque"
+                               HorizontalAlignment="Right"/>
+                    
+
+                    
+
+                
+                   
+                </StackPanel>
+             
+                
+
+
+            </Grid>
+        </Border>
+        <Border HorizontalAlignment="Left"
+                Width="100"
+                Height="150"
+                VerticalAlignment="Top">
+            <Grid>
+                <Button x:Name="Home"
+                            Click="Home_Click" 
+                            Style="{StaticResource Bt}"
+                            Background="Aqua">
+                    <StackPanel>
+                        <materialDesign:PackIcon Kind="Home"/>
+                    </StackPanel>
+                </Button>
+
+                <TextBlock Text="Назад"
+                               Width="62"
+                           Height="20"
+                           Background="Bisque"
+                               HorizontalAlignment="Right" 
+                           Margin="0,88,25,0"/>
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</Page>
