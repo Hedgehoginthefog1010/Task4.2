@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -28,7 +29,37 @@ namespace Task4._1.View.Page.Menu
 
         private void E1_Click(object sender, RoutedEventArgs e)
         {
+            int A = 0;
+            int B = 0;
+            int r = 0;
+            int summ=0;
+            Random i= new Random();
+            int[]mass= new int[66];
+            for (int j = 0; j < 66; j++)
+            {
+                mass[j] = i.Next(-100,100);
 
+
+                A = mass[j];
+                B = mass[j];
+                if (A<B)
+
+                while (A < B)
+                {
+                   
+                    r = mass[j];
+                    r++;
+
+                }
+                while(summ<r)
+                    summ = r;
+                    summ++;
+
+                
+            
+            }
+                
+            MessageBox.Show($"{summ}","Задание 1",MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
         private void E2_Click(object sender, RoutedEventArgs e)
